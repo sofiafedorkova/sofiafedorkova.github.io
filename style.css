@@ -1,15 +1,27 @@
 
   body{
-    background:url("foto.jpg");
+    background:url("s2.jpg");
     background-size:100%;
     
 
+  }
+  .lessons-bg{
+    background:url("foto.jpg");
+  }
+  .about-bg{
+    background:url("foto.jpg");
+  }
+  .contact-bg{
+    background:url("foto.jpg");
   }
   img {
     width: 400px;
     float: left;
   }
 
+.row{
+  background-color:#F2FAF9;
+}
 
 .columns{
   width: 495px;
@@ -36,23 +48,23 @@ margin-bottom: 0;
 
 h1{
   text-align: center;
-font-family: cursive;
-font-size:40px;
-color:#3069B3;
+font-family: "Times New Roman";
+font-size:50px;
+color:#072A36;
 
 }
   h2{
     text-align:center;
-    font-family:fantasy;
-    font-size:40px;
-    color:#3069B3;
+    font-family:cursive;
+    font-size:45px;
+    color:#072540;
   }
   
   h3{
     text-align:center;
-    font-family:fantasy;
-    font-size:40;
-    color:#322787;
+    font-family:cursive;
+    font-size:40px;
+    color:#072540;
   }
 
 ul {
@@ -102,7 +114,7 @@ li a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-left:200px;
+  margin-left:170px;
 }
 
 .social-buttons a:before{
@@ -188,13 +200,14 @@ a {
   background-color: #008CBA;
   color: black;
     margin:70px;
+    margin-left: 300px;
 
 }
 
 .next {
   background-color: #008CBA;
   color: black;
-  margin:100px;
+  margin:200px;
 }
 
 
